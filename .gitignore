@@ -1,0 +1,9 @@
+.githooks
+node_modules
+coverage
+.DS_Store
+.env
+*.tsbuildinfo
+dist
+
+.claude

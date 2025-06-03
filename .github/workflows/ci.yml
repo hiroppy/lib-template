@@ -1,0 +1,32 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/ci.yml
+      - package.json
+      - src/**
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/ci.yml
+      - package.json
+      - src/**
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node
+      - run: pnpm lint
+      - run: npx biome check . && npx prettier --check './**/*.{md,yml}'
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup-node
+      - run: pnpm build
