@@ -23,7 +23,7 @@
     "@biomejs/biome": "2.3.8",
     "@types/node": "22.19.1",
     "@vitest/coverage-v8": "4.0.14",
-    "knip": "5.63.1",
+    "knip": "5.70.2",
     "lefthook": "1.13.6",
     "prettier": "3.7.2",
     "typescript": "5.9.3",
