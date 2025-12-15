@@ -20,7 +20,7 @@
     "fmt": "prettier -w './**/*.{md,yml}' && biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.3.8",
+    "@biomejs/biome": "2.3.9",
     "@types/node": "24.10.4",
     "@vitest/coverage-v8": "4.0.15",
     "knip": "5.70.2",
