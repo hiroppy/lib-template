@@ -24,7 +24,7 @@
     "@types/node": "24.10.7",
     "@vitest/coverage-v8": "4.0.17",
     "knip": "5.80.2",
-    "lefthook": "2.0.14",
+    "lefthook": "2.0.15",
     "prettier": "3.7.4",
     "typescript": "5.9.3",
     "vitest": "4.0.17"
