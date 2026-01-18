@@ -18,8 +18,8 @@ importers:
         specifier: 4.0.17
         version: 4.0.17(vitest@4.0.17(@types/node@24.10.9)(jiti@2.6.1)(jsdom@26.1.0)(lightningcss@1.30.1))
       knip:
-        specifier: 5.80.2
-        version: 5.80.2(@types/node@24.10.9)(typescript@5.9.3)
+        specifier: 5.82.0
+        version: 5.82.0(@types/node@24.10.9)(typescript@5.9.3)
       lefthook:
         specifier: 2.0.15
         version: 2.0.15
@@ -764,8 +764,8 @@ packages:
       canvas:
         optional: true
 
-  knip@5.80.2:
-    resolution: {integrity: sha512-Yt7iF8Uzl7pp3mGA6yvum6PZBcbGhjasZYuqIwcIAX1jsIhGRUAK0icP0qrB6FSPBI3BpIeMHl7n9meCLO6ovg==}
+  knip@5.82.0:
+    resolution: {integrity: sha512-LNOR/TcauMdJLGZ9jdniIUpt0yy8aG/v8g31UJlb6qBvMNFY31w02hnwS8KMHEGy/X+pfxqsOLMFdm0NAJ3wWg==}
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
@@ -1804,7 +1804,7 @@ snapshots:
       - utf-8-validate
     optional: true
 
-  knip@5.80.2(@types/node@24.10.9)(typescript@5.9.3):
+  knip@5.82.0(@types/node@24.10.9)(typescript@5.9.3):
     dependencies:
       '@nodelib/fs.walk': 1.2.8
       '@types/node': 24.10.9
