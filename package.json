@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.16",
-    "@types/node": "24.13.0",
+    "@types/node": "24.13.1",
     "@vitest/coverage-v8": "4.0.18",
     "knip": "5.80.2",
     "lefthook": "2.0.16",
